@@ -8,6 +8,7 @@ var passport = require('passport')
 var LinkedInStrategy = require('passport-linkedin-oauth2').Strategy;
 var routes = require('./routes/index');
 var users = require('./routes/users');
+require('dotenv').load()
 
 var app = express();
 
